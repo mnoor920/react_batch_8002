@@ -5,7 +5,7 @@ const Footer = (props) => {
     <section className='quick_service_section'>
       <div className="page_width">
         <div className="quick_service_inner_section">
-          <h2>Quick Service On Emergency</h2>
+          <h2>Quick Service On Emergency for Ab dull Rehman</h2>
           <a href="tel:+92+971586747123"> {props.icon} <span>+971 58 67 47 123</span></a>
         </div>
       </div>
