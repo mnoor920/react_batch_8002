@@ -16,6 +16,11 @@ body {
   margin: auto
 }
 
+.section_margin{
+  width: 100%;
+  margin: 75px 0px;
+}
+
 header {
   width: 100%;
   margin: auto;
