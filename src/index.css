@@ -12,11 +12,11 @@ body {
 }
 
 .page_width {
-  width: 1250px;
+  max-width: 1250px;
   margin: auto
 }
 
-.section_margin{
+.section_margin {
   width: 100%;
   margin: 75px 0px;
 }
