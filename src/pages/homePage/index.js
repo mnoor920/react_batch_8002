@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from "../../layout"
+import WhoWeAre from './components/whoWeAre'
 import bannerImg from "../../images/home/banner/banner.svg"
 import starImg from '../../images/home/after_banner/start.svg'
 import dollarImg from '../../images/home/after_banner/dollar.svg'
 import usersImg from '../../images/home/after_banner/users.svg'
 import ExploreComponents from './components/exploreComponents'
+import OurClient from './components/ourClient'
 import './style.css'
 
 const HomePage = () => {
@@ -48,6 +50,8 @@ const HomePage = () => {
                 </div>
             </section>
             <ExploreComponents />
+            <WhoWeAre />
+            <OurClient />
         </Layout>
     )
 }
