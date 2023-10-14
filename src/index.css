@@ -13,7 +13,8 @@ body {
 
 .page_width {
   max-width: 1250px;
-  margin: auto
+  margin: auto;
+  padding: 0px 15px;
 }
 
 .section_margin {
@@ -32,6 +33,10 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center
+}
+
+.nav_desktop .menu_bar {
+  display: none;
 }
 
 .nav_desktop nav ul {
@@ -182,4 +187,49 @@ header {
   background: #058B8C;
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
   padding: 5px 15px;
+}
+
+
+.outer_service {
+  position: relative;
+}
+
+.inner_service {
+  position: absolute;
+  width: 200px;
+  padding: 10px;
+  background: #058B8C;
+  display: none;
+}
+
+.inner_service .service_list {
+  display: unset;
+}
+
+.inner_service .service_list li {
+  padding: 15px;
+}
+
+.inner_service .service_list li:last-child {
+  padding: 0px;
+  background: transparent;
+}
+
+.inner_service .service_list li:hover {
+  background: #fff;
+}
+
+.outer_service:hover .inner_service {
+  display: block;
+}
+
+/* Mobile Nav */
+.mobile_nav {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #058B8C;
+  top: 0;
+  left: 0;
+  display: none;
 }
